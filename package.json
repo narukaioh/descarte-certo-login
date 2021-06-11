@@ -1,0 +1,20 @@
+{
+  "name": "descarte-certo-login",
+  "version": "1.0.0",
+  "description": "fake api",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json"
+  },
+  "keywords": [
+    "fake",
+    "api",
+    "login",
+    "token"
+  ],
+  "author": "Ju Dantas",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
