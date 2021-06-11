@@ -2,7 +2,7 @@
   "name": "descarte-certo-login",
   "version": "1.0.0",
   "description": "fake api",
-  "main": "index.js",
+  "main": "db.json",
   "scripts": {
     "start": "json-server db.json"
   },
