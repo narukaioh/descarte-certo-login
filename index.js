@@ -2,11 +2,13 @@ const express = require('express')
 const app = express()
 const secret = "123abc"
 const jwt = require('jsonwebtoken')
+const cors = require('cors')
 const port = process.env.PORT || 4000
 
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+app.use(cors())
 
 const createToken = (user) => jwt.sign(user, secret, { expiresIn: 300 })
 
